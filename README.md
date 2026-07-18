@@ -1,31 +1,26 @@
-# AWS Cloud Observability
+**AWS Cloud Observability**
 
-## Overview
-Monitoring and observability platform for cloud workloads using Prometheus, Grafana, and AWS CloudWatch concepts.
+**Project Overview**
 
-## Technologies
-- AWS CloudWatch
-- Prometheus
-- Grafana
-- Docker
-- Node Exporter
+Cloud monitoring and observability platform using Prometheus, Grafana, and AWS CloudWatch concepts to provide infrastructure visibility and operational insights.
 
-## Components
-- Prometheus metrics collection
-- Node Exporter host metrics
-- Grafana dashboards
-- Monitoring configuration
+**Project Goal**
 
-## Features
-- Metrics monitoring
-- Dashboard visualization
-- Service health checks
-- Infrastructure visibility
+Build an observability solution demonstrating metrics collection, visualization, and cloud workload monitoring practices.
 
-## Validation
-- Prometheus targets verified
-- Grafana connected to Prometheus
-- Metrics successfully collected
+**Architecture**
 
-## Status
-Completed
+```text
+Cloud Workloads
+      │
+      ▼
+Node Exporter
+      │
+      ▼
+Prometheus
+      │
+      ▼
+Grafana Dashboards
+      │
+      ▼
+AWS CloudWatch Concepts
