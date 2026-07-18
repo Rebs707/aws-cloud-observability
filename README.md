@@ -24,3 +24,61 @@ Grafana Dashboards
       │
       ▼
 AWS CloudWatch Concepts
+```
+
+**Technologies**
+
+- AWS CloudWatch
+- Prometheus
+- Grafana
+- Docker
+- Node Exporter
+
+**Components**
+
+- Prometheus metrics collection
+- Node Exporter host metrics
+- Grafana dashboards
+- Monitoring configuration
+
+**Features**
+
+- Metrics monitoring
+- Dashboard visualization
+- Service health checks
+- Infrastructure visibility
+
+**Validation**
+
+- Prometheus targets verified
+- Grafana connected to Prometheus
+- Metrics successfully collected
+
+**Project Structure**
+
+```text
+prometheus/
+grafana/
+docker/
+diagrams/
+screenshots/
+```
+
+**Key Learnings**
+
+- Cloud observability concepts
+- Metrics collection and monitoring
+- Prometheus configuration
+- Grafana dashboard creation
+- Infrastructure health visibility
+
+**Status**
+
+✅ Completed
+
+**Future Improvements**
+
+- Add alerting with Alertmanager
+- Integrate AWS CloudWatch dashboards
+- Add CI/CD monitoring pipeline
+
